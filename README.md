@@ -2,7 +2,7 @@
 
 Projet d'analyse de données satellitaires (Sentinel-2) et de données terrain pour la recommandation de cultures agricoles basée sur des indices spectraux et des conditions environnementales.
 
-## 📋 Description
+##  Description
 
 Ce projet combine trois approches analytiques :
 
@@ -10,7 +10,7 @@ Ce projet combine trois approches analytiques :
 2. **Analyse temporelle des indices spectraux** - Étude de l'évolution saisonnière via Sentinel-2
 3. **Fusion et régression** - Prédiction des conditions optimales pour les cultures
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - Extraction d'images Sentinel-2 via Google Earth Engine
 - Calcul d'indices spectraux (NDVI, NDWI, MNDWI, NDRE, etc.)
@@ -19,7 +19,7 @@ Ce projet combine trois approches analytiques :
 - Régression linéaire multiple
 - Recommandation de cultures par saison
 
-## 📦 Installation
+##  Installation
 
 ### Prérequis
 
@@ -32,7 +32,7 @@ Ce projet combine trois approches analytiques :
 pip install -r requirements.txt
 ```
 
-## 🗂️ Données requises
+##  Données requises
 
 Placez ces fichiers dans le dossier `data/` :
 
@@ -40,7 +40,7 @@ Placez ces fichiers dans le dossier `data/` :
 - `terrain_N045_or.csv` - Mesures terrain (N, P, K, température, humidité, pH)
 - `polygon3.geojson` - Zone d'étude géographique
 
-## 🎯 Utilisation
+##  Utilisation
 
 ### Partie 1 : Analyse des données agricoles
 
@@ -103,22 +103,22 @@ ee.Authenticate()
 ee.Initialize(project='votre-projet-id')
 ```
 
-## 📝 Notes importantes
+##  Notes importantes
 
 - ⚠️ La Partie 2 nécessite ~1h d'exécution (250 requêtes API)
 - Les fichiers CSV générés sont volumineux et non versionnés
 - Résolution spatiale : 10m (Sentinel-2)
 - Période d'analyse : Juillet 2020 - Décembre 2023
 
-## 🤝 Contribution
+##  Contribution
 
 Les contributions sont les bienvenues ! Ouvrez une issue ou un pull request.
 
-## 👤 Auteur
+##  Auteur
 
 ouhassine wissal ouarda
 
-## 🔗 Liens utiles
+##  Liens utiles
 
 - [Documentation Google Earth Engine](https://developers.google.com/earth-engine)
 - [Sentinel-2 User Handbook](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi)
