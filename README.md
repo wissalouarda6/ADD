@@ -30,7 +30,7 @@ Le projet est divisé en trois parties principales :
 
 **Résultats clés :**
 ```
-Nombre optimal de clusters : 4
+Nombre optimal de clusters : 3
 Précision du modèle : Évaluée via matrice de confusion
 Variables analysées : 7 variables environnementales
 Cultures : 22 types différents
